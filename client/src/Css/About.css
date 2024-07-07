@@ -1,0 +1,77 @@
+.about-page {
+    text-align: center;
+  }
+  
+  .hero-section {
+    background:url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    color: rebeccapurple;
+    margin-top: -50px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 7s steps(40, end);
+    animation-iteration-count: infinite;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #007bff;
+  }
+  
+  .about-details {
+    padding: 2rem;
+    text-align: left;
+  }
+  
+  .about-section {
+    margin: 2rem 0;
+  }
+  
+  .about-section h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p, .about-section ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
